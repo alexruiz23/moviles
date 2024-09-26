@@ -1,0 +1,24 @@
+<h2>EJEMPLO PASOS DEL COMPONENTE AL html  </h2>
+<hr>
+<!--escrfibo directamente los valores de la clase-->
+<p>tu nombre : {{nombre}}</p>
+<label for="edad"> edad</label>
+<form>
+    <!--escirbo el valor de la clase en el html-->
+    <label for="name">nombre</label>
+    <input type="text" name="name" value="nombre">
+    <br><br>
+    <label for="age">edad</label>
+    <input type="text" name="age" value="edad">
+</form>
+<!--doble binding-->
+<form>
+    <!--escirbo el valor de la clase en el html-->
+    <label for="name">nombre</label>
+    <input type="text" name="name" [(ngModel)]="nombre">
+    <br><br>
+    <label for="age">edad</label>
+    <input type="text" name="age"  [(ngModel)]="nombre">
+</form>
+
+
