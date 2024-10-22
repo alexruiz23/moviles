@@ -1,0 +1,11 @@
+print("Dame el primer numero")
+num1=input()
+print("Dame el segundo numero")
+num2=input()
+num1=int(num1)
+num2=int(num2)
+
+print("Suma :",num1+num2)
+print("Resta :",num1-num2)
+print("Division :",num1/num2)
+print("Multiplicacion :",num1*num2)
